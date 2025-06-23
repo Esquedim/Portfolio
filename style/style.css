@@ -1,0 +1,192 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Chakra Petch", sans-serif;
+    text-decoration: none;
+    transition: 0.2s linear;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+}
+
+body{
+  
+    background-color: #121212;
+    color: #f5f5f5;
+   
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #333;
+}
+#navega{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+  
+}
+.a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 150%;
+    color: #f5f5f5;
+}
+
+#devportifolio{
+    font-size: 250%;
+}
+
+.a:hover {
+    font-size:200%;
+}
+
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 93vh;
+    width: 100%;
+    background-image: url('../img/000.png');
+    background-size: cover;
+    padding-left: 20px;
+    text-shadow: 1px 1px 5px #000;
+}
+
+#home-h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.paragrafo{
+    font-size: 1.5rem;
+    max-width: 800px;
+}
+
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    margin-top: 2%;
+    
+}
+
+.h2{
+    border-bottom: 2px solid #00bcd4;
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+
+h3{
+    font-size: 1.8rem;
+    color: #00bcd4;
+    margin-top: 30px;
+}
+
+.Habilidades{
+    font-size: 1.2rem;
+    margin-left: 20px;
+    list-style: square;
+    
+}
+
+
+
+
+#contatos{
+    margin-top: 23%;
+    padding: 3%;
+    background-color: #1e1e1e;
+}
+
+#contato{
+    font-size: 2rem;
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+.link-contato{
+    
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+
+
+
+
+#container-h2{
+    display: flex;
+    flex-direction: column;
+    margin: 3.7rem;
+    
+}
+
+#h2-projetos{
+    font-size: 40px;
+}
+
+#container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 20px;
+}
+.item{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #2a2a2a;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    color: #f5f5f5;
+}
+
+
+
+
+
+@media(max-width: 768px){
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        text-align: center;
+        
+    }
+}
+
+
+@media(max-width: 575px){
+    #container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        text-align: center;
+        
+    }
+}
+
+
+@media(max-width: 369px){
+    .desaparecer{
+        display: none;
+    }
+}
+
+
+
