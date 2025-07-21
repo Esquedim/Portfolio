@@ -54,7 +54,7 @@ header {
     justify-content: center;
     height: 93vh;
     width: 100%;
-   background-image: url("/img/Flux_Dev_Banner_horizontal_1920x600px_estilo_minimalista_escur_0.jpg");
+   background-image: url("../img/Flux_Dev_Banner_horizontal_1920x600px_estilo_minimalista_escur_0.jpg");
     background-size: cover;
     padding-left: 20px;
     text-shadow: 1px 1px 5px #000;
